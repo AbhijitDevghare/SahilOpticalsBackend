@@ -2,7 +2,7 @@
 import dns from 'node:dns';
 import mongoose from 'mongoose';
 
-const MONGO_URI = 'mongodb+srv://abhi_dev04:arisandh76@cluster0.djuqmro.mongodb.net/sahil_opticals?retryWrites=true&w=majority';
+const MONGO_URI = 'mongodb+srv://abhi_dev04:arisandh76@cluster0.djuqmro.mongodb.net/sahil_opticals';
 
 const ensureSrvDnsResolution = async (uri) => {
   if (!uri.startsWith('mongodb+srv://')) return;
